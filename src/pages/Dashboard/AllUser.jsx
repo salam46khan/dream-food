@@ -39,7 +39,7 @@ const AllUser = () => {
             </div>
             <hr />
             <div className="overflow-x-auto">
-                <table className="table">
+                <table className="table table-zebra-zebra">
                     {/* head */}
                     <thead>
                         <tr>

@@ -31,10 +31,10 @@ const Testimonial = () => {
             <div className="container mx-auto">
                 <SectionItem header={'TESTIMONIALS'} subHeader={'---What Our Clients Say---'}></SectionItem>
                 <div >
-                    <Swiper navigation={true} modules={[Navigation]} className="mySwiper  text-center mx-10">
+                    <Swiper navigation={true}  modules={[Navigation]} className="mySwiper  text-center mx-10">
 
                         {
-                            review.map(item => <SwiperSlide key={item._id} item={item} >
+                            review.slice(0,3).map(item => <SwiperSlide key={item._id} item={item} >
                                 <div className="w-2/3 mx-auto">
                                     <div>
                                         <Rating

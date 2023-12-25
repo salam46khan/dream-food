@@ -14,6 +14,7 @@ import AddItem from "../pages/Dashboard/AddItem";
 import DashHome from "../pages/Dashboard/DashHome";
 import Payment from "../pages/Dashboard/Payment";
 import Review from "../pages/Dashboard/Review";
+import Management from "../pages/Dashboard/Management";
 
 const MainRouter = createBrowserRouter([
     {
@@ -70,6 +71,10 @@ const MainRouter = createBrowserRouter([
             {
                 path: 'reservation',
                 element: <Review></Review>
+            },
+            {
+                path: 'manageitems',
+                element: <Management></Management>
             }
         ]
     }

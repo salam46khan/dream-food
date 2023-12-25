@@ -46,6 +46,12 @@ const Dashboard = () => {
                                             All User
                                         </NavLink>
                                     </li>
+                                    <li>
+                                        <NavLink to={'/dashboard/reservation'}>
+                                            <FaRedRiver></FaRedRiver>
+                                            Add a Review
+                                        </NavLink>
+                                    </li>
                                 </>
                                 :
                                 <>
