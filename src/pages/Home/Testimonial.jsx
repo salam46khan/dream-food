@@ -18,14 +18,7 @@ const Testimonial = () => {
     const [review, setReview] = useState([])
     axiouSecure.get('/review')
     .then(data => setReview(data.data))
-    // useEffect(() => {
-    //     fetch('http://localhost:5000/review')
-    //         .then(res => res.json())
-    //         .then(data => {
-    //             // console.log(data);
-    //             setReview(data)
-    //         })
-    // }, [])
+    
     return (
         <div className="py-10">
             <div className="container mx-auto">
